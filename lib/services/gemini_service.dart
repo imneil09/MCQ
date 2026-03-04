@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../core/constants/env.dart';
 import '../core/database/models.dart';
+import 'package:uuid/uuid.dart';
 
 class GeminiService {
   Future<List<MCQModel>> convertTextToMCQ(String textChunk) async {
