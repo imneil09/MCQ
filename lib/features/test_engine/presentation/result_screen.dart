@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/database/isar_db.dart';
 import '../../../core/database/models.dart';
 import 'package:isar/isar.dart';
